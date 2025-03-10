@@ -27,6 +27,13 @@ public class Date {
    *
    * @return The day of the month (1-31).
    */
+
+   public Date(int dia, int mes, int año) {
+     this.day = dia;
+     this.month = mes;
+     this.year = año;
+   }
+
    public void escribe(){
      System.out.println("Hola");
    }

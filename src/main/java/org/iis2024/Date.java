@@ -20,6 +20,9 @@ public class Date {
   private final int month;
   private final int year;
 
+public void escribe(){
+  System.out.println("Hola");
+}
   /**
    * Retrieves the day component of this date.
    *

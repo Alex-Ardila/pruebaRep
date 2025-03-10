@@ -16,18 +16,20 @@ import java.text.SimpleDateFormat;
  * month, and year values cannot be changed.
  */
 public class Date {
+  
   private final int day;
   private final int month;
   private final int year;
 
-public void escribe(){
-  System.out.println("Hola");
-}
-  /**
+  private final int addedByColab;
+   /**
    * Retrieves the day component of this date.
    *
    * @return The day of the month (1-31).
    */
+   public void escribe(){
+     System.out.println("Hola");
+   }
   public int getDay() {
     return day;
   }

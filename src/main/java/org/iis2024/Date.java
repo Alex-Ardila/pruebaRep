@@ -27,6 +27,14 @@ public class Date {
    *
    * @return The day of the month (1-31).
    */
+
+    // Constructor modified by the collaborator
+    public Date(int tag, int monat, int jahr) {
+      this.day = tag;
+      this.month = monat;
+      this.year = jahr;
+  } 
+
    public void escribe(){
      System.out.println("Hola");
    }
